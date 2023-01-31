@@ -1,10 +1,10 @@
 <?php include("header.php") ?>
     <main>
-        <section class="service bg-green py-85">
+        <section class="service bg-green py-85" id="banner">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <div>
+                        <div class="banner-text">
                             <h1 class="text-display-2 text-white">Advanced <br class="d-none d-lg-block"> analytics to grow your business</h1>
                             <p class="text-body-lead-large text-white my-4">Integrated workflow designed for product teams. We create world-class development and branding</p>
                             <div class="mt-4">
@@ -127,13 +127,13 @@
                         <h1 class="text-heading-1 mt-4">Don't take our word for it. See what our clients say.</h1>
                         <h4 class="text-body-lead-large color-gray-600 mt-4">Aliquam a augue suscipit, luctus neque purus ipsum neque at dolor primis libero tempus, blandit</h4>    
                         <div class="my-5">
-                            <span class="rounded-pill bg-white p-md-4 p-3 font-weight-bolder font-18">Learn more <i class="bi bi-arrow-right ml-3 py-4"></i></span>
+                            <span class="rounded-pill bg-white p-md-4 p-3 font-weight-bolder font-18 learn-more">Learn more <i class="bi bi-arrow-right ml-3 py-4"></i></span>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-7">
-                        <div class="row">
+                        <div class="row testimonial-box">
                             <div class="col-md-12 col-lg-6">
-                                <div class="bg-white my-2">
+                                <div class="bg-white hover-up my-2">
                                     <div class="p-4">
                                         <p class="text-body-text color-gray-600 font-16">"No matter where you go, Its is the coolest, most happening thing around! Not able to tell you how happy I am with it. </p>
                                         <div class="row">
@@ -151,7 +151,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6">
-                                <div class="bg-white my-2">
+                                <div class="bg-white hover-up my-2">
                                     <div class="p-4">
                                         <p class="text-body-text color-gray-600 font-16">"Wow what great service, I love it! Its is the most valuable business resource we have EVER purchased. We cant understand how we have been living without it. I couldnt have asked for more than this.</p>
                                         <div class="row">
@@ -169,7 +169,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6 mt-lg-n5">
-                                <div class="bg-white my-2">
+                                <div class="bg-white hover-up my-2">
                                     <div class="p-4">
                                         <p class="text-body-text color-gray-600 font-16">"Your company is truly upstanding and is behind its product 100%. Its the perfect solution for our business. It has really helped our business. Needless to say we are extremely satisfied with the results.  </p>
                                         <div class="row">
@@ -187,7 +187,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6">
-                                <div class="bg-white my-2">
+                                <div class="bg-white hover-up my-2">
                                     <div class="p-4">
                                         <p class="text-body-text color-gray-600 font-16">"Its is both attractive and highly adaptable. Its exactly what I have been looking for. Definitely worth the investment. </p>
                                         <div class="row">
@@ -250,116 +250,114 @@
                         <h2 class="text-heading-1">Choose The Best Plan That’s For You</h2>
                         <div class="custom-control custom-switch">
                             <span class="mr-4">Bill Montly</span>
-                            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch1" fill="#000000">
                             <label class="custom-control-label ml-4" for="customSwitch1">Bill Anually</label>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="row py-4 text-left">
-                            <div class="col-lg-3 col-md-6 my-4">
-                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box">
+                            <div class="col-xl-3 col-lg-6 col-md-6 my-4">
+                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box details">
                                    <div class="box-info-price">
                                         <span class="text-heading-3 for-month display-month">$35</span>
                                         <!-- <span class="text-heading-3 for-year">$420</span> -->
                                         <span class="color-gray-400">/month</span>
                                         <!-- <span class="text-month for-year text-body-small color-gray-400">/year</span> -->
                                     </div> 
-                                    <div class="pb-3 mt-3 border-bottom">
+                                    <div class="subscription pb-3 mt-3 border-bottom">
                                         <h4 class="text-heading-5">Standard</h4>
                                         <p class="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
                                     </div>
                                     <ul class=" list-unstyled list-package-feature my-5">
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Unlimited updates
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i>Unlimited updates</span>
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom permissions
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i>Custom permissions</span>
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom designs &amp; features
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i>Custom designs &amp; features</span>
                                         </li>
                                     </ul>
-                                    <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-5 py-2">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
+                                    <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-lg-4 py-3">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 my-4">
-                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box">
+                            <div class="col-xl-3 col-lg-6 col-md-6 my-4">
+                                <div class="bg-green text-white rounded-lg border shadow-sm p-4 h-100 position-realtive details box">
                                    <div class="box-info-price">
                                         <span class="text-heading-3 for-month display-month">89</span>
-                                        <span class="color-gray-400">/month</span>
+                                        <span class="text-white">/month</span>
                                     </div> 
-                                    <div class="pb-3 mt-3 border-bottom">
+                                    <div class="subscription pb-3 mt-3 border-bottom">
                                         <h4 class="text-heading-5">Essentials</h4>
-                                        <p class="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
+                                        <p class="text-body-small text-white">All the basics for businesses that are just getting started.</p>
                                     </div>
                                     <ul class=" list-unstyled list-package-feature my-5">
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Unlimited updates
+                                            <span><i class="bi bi-check-lg bg-orange text-green rounded-circle mr-2 p-1"></i></span>Unlimited updates
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom permissions
+                                            <span><i class="bi bi-check-lg bg-orange text-green rounded-circle mr-2 p-1"></i></span>Custom permissions
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom designs &amp; features
+                                            <span><i class="bi bi-check-lg bg-orange text-green rounded-circle mr-2 p-1"></i></span>Custom designs &amp; features
                                         </li>
                                     </ul>
-                                    <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-5 py-2">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
+                                    <button type="button" class="btn btn-outline-light start-plan-btn text-white font-weight-bolder px-lg-4 py-3">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 my-4">
-                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box">
+                            <div class="col-xl-3 col-lg-6 col-md-6 my-4">
+                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box details">
                                    <div class="box-info-price">
                                         <span class="text-heading-3 for-month display-month">125</span>
                                         <span class="color-gray-400">/month</span>
                                     </div> 
-                                    <div class="pb-3 mt-3 border-bottom">
+                                    <div class="subscription pb-3 mt-3 border-bottom">
                                         <h4 class="text-heading-5">Premium</h4>
                                         <p class="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
                                     </div>
                                     <ul class=" list-unstyled list-package-feature my-5">
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Unlimited updates
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Unlimited updates
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom design & features
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom design & features
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom permissions
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom permissions
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom designs &amp; features
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom designs &amp; features
                                         </li>
                                     </ul>
-                                    <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-5 py-2">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
+                                    <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-lg-4 py-3">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 my-4">
-                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box">
+                            <div class="col-xl-3 col-lg-6 col-md-6 my-4">
+                                <div class="bg-white rounded-lg border shadow-sm p-4 h-100 position-realtive box details">
                                    <div class="box-info-price">
                                         <span class="text-heading-3 for-month display-month">199</span>
                                         <span class="color-gray-400">/month</span>
                                     </div> 
-                                    <div class="pb-3 mt-3 border-bottom">
+                                    <div class="subscription pb-3 mt-3 border-bottom">
                                         <h4 class="text-heading-5">Premium</h4>
                                         <p class="text-body-small color-gray-400">All the basics for businesses that are just getting started.</p>
                                     </div>
                                     <ul class=" list-unstyled list-package-feature my-5">
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Unlimited updates
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Unlimited updates
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom design & features
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom design & features
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom permissions
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom permissions
                                         </li>
                                         <li class="text-body-small mb-3">
-                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-3 p-1"></i></span>Custom designs &amp; features
+                                            <span><i class="bi bi-check-lg bg-green text-white rounded-circle mr-2 p-1"></i></span>Custom designs &amp; features
                                         </li>
                                     </ul>
-                                    <div class="pt-5">
-                                        <button type="button" class="btn btn-black  start-plan-btn text-white font-weight-bolder px-5 py-2">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
-                                    </div>
+                                        <button type="button" class="btn btn-black  start-plan-btn text-white font-weight-bolder px-lg-4 py-3">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -369,15 +367,15 @@
         </section>
 
         <section class="latest-news py-5">
-            <div class="container-xl container">
-                <div class="row">
+            <div class="container">
+                <div class="row pb-5">
                     <div class="col-12">
                         <div class="float-md-left">
                             <h2 class="text-heading-1 mt-5">Latest News</h2>
                             <h4 class="text-gray-50 lh-32 xs-text">From Our blog and Event fanpage</h4>
                         </div>
                         <div class="mt-5">
-                            <span class="mt-3 badge-pill text-white btn-black p-md-4 p-3 font-weight-bolder hover-down font-18 float-md-right">View Blogs <i class="bi bi-arrow-right ml-4 py-4"></i></span>
+                            <span class="mt-3 badge-pill text-white btn-black p-md-4 p-3 font-weight-bolder hover-down font-18 float-md-right blog-btn">View Blogs <i class="bi bi-arrow-right ml-4 py-4"></i></span>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4 my-3">
@@ -412,7 +410,7 @@
         </section>
 
         <section class="newsletter pb-5">
-            <div class="container-xl container">
+            <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-11 col-md-12 col-lg-10 bg-light-green rounded-lg p-lg-5 p-4">
                         <div class="row">
@@ -436,5 +434,6 @@
         </section>
     </main>
 <?php include("footer.php") ?>
+
 
   

@@ -1,13 +1,13 @@
 <footer>
     <section class="footer-section py-5">
-      <div class="container-xl container">
-        <div class="row pt-5 justify-content-center">
+      <div class="container">
+        <div class="row justify-content-center pt-5">
             <div class="col-lg-6 col-md-3">
-            <img src="images/logo-black.svg" alt="logo" class="img-fluid float-left">
+            <img src="images/logo-black.svg" alt="logo" class="img-fluid my-3">
             </div>
             <div class="col-lg-6 col-md-9">
-                <div class="float-right">
-                    <span class="color-gray-900 text-heading-6 mr-5">Ready to get started?</span>
+                <div class="footer-top my-3">
+                    <span class="color-gray-900 text-heading-6 mr-xl-5 mr-md-2 mr-sm-5">Ready to get started?</span>
                     <button type="button" class="btn btn-black start-plan-btn text-white font-weight-bolder px-5 py-3">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                 </div>
             </div>
@@ -69,11 +69,11 @@
           <div class="col-12">
             <div class="row justify-content-center">
               <div class="col-md-8 col-lg-6">
-                <div class="pt-4 d-flex">
-                  <h4 class="color-gray-400 text-body-lead font-18 mr-2 mr-md-3">&copy Agon Official 2022</h4>
-                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-2 mr-md-3">Privacy policy</a>
-                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-2 mr-md-3">Cookies</a>
-                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-2 mr-md-3">Terms of service</a>
+                <div class="pt-4 d-flex justify-content-between">
+                  <h4 class="color-gray-400 text-body-lead font-18 mr-3">&copy Agon Official 2022</h4>
+                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-3">Privacy policy</a>
+                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-3">Cookies</a>
+                  <a href="#" class="text-body-text color-gray-400 text-decoration-none mr-3">Terms of service</a>
                 </div>
               </div>
               <div class="col-md-4 col-lg-6">

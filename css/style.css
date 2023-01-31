@@ -60,6 +60,9 @@
   background-color: #fff3ea;
   color: #e29578;
 }
+.bg-orange {
+  background-color: #e29578 !important;
+}
 .bg-blue {
   background-color: #d1ecfd !important;
   color: #101828 !important;
@@ -168,6 +171,22 @@
 }
 
 /* common class */
+.header .navbar-collapse form button:hover,
+.service .banner-text button:hover,
+.testimonials .learn-more:hover {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+.header .navbar-collapse .nav-item .nav-link:hover {
+  color: var(--light-green);
+}
+header .navbar-collapse form .hover-up:hover,
+.testimonials .testimonial-box .hover-up:hover,
+.discover .temp-box-1:hover,
+.discover .temp-box-2:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
 .discover .temp-box-1,
 .discover .temp-box-2 {
   position: relative;
@@ -194,6 +213,31 @@
   position: absolute;
   bottom: 20px;
 }
+.plans .details:hover {
+  background-color: var(--green) !important;
+  color: #ffffff;
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+.plans .details:hover button {
+  border: 1px solid #ffffff;
+  background-color: var(--green);
+  color: #ffffff;
+}
+.plans .details:hover .list-package-feature li i {
+  background-color: #e29578;
+  color: var(--green) !important;
+}
+.plans .details:hover .box-info-price span,
+.plans .details:hover .subscription p {
+  color: #ffffff !important;
+}
+.plans .details .list-package-feature {
+  /* display: inline-block; */
+  width: 100%;
+  padding-bottom: 40px;
+  min-height: 100px;
+}
 .news-cards,
 .pink-newscard {
   position: relative;
@@ -208,12 +252,21 @@
   right: -15px;
   width: 100%;
   height: 100%;
-  top: 23px;
+  top: 28px;
   background-color: #d1ecfd;
   border-radius: 1.5rem !important;
 }
-.pink-newscard::before {
+.news-cards:hover::before,
+.pink-newscard:hover:before {
+  right: -10px;
+  top: 24px;
+}
+.latest-news .pink-newscard::before {
   background-color: pink !important;
+}
+.latest-news .blog-btn:hover {
+  background-color: #dee2e8;
+  color: #000000 !important;
 }
 .newsletter .form-group {
   position: relative;
@@ -235,9 +288,48 @@
   text-decoration: none;
   transition-duration: 0.2s;
 }
+.footer-section .footer-top button:hover {
+  background-color: #ffffff;
+  border: 1px solid black;
+  color: #000000 !important;
+}
+.footer-section .footer-list li a:hover {
+  color: #006d77;
+  transition-duration: 0.2s;
+  padding-left: 3px;
+}
+.scroll {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  transition: ease-in-out 0.5s;
+}
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
+  }
+}
+@media (max-width: 992px) {
+  .text-display-2 {
+    font-size: 64px;
+    line-height: 70px;
+  }
+  .text-heading-1 {
+    font-size: 46px;
+    line-height: 52px;
+  }
+  .newsletter .newsletter-img {
+    position: relative;
+  }
+}
+@media (max-width: 767.98px) {
+  .text-display-2 {
+    font-size: 50px;
+    line-height: 58px;
+  }
+  .text-heading-1 {
+    font-size: 46px;
+    line-height: 52px;
   }
 }
 @media (max-width: 575.98px) {
@@ -260,28 +352,5 @@
   .text-body-lead-large {
     font-size: 20px;
     line-height: 28px;
-  }
-}
-@media (max-width: 767.98px) {
-  .text-display-2 {
-    font-size: 50px;
-    line-height: 58px;
-  }
-  .text-heading-1 {
-    font-size: 46px;
-    line-height: 52px;
-  }
-}
-@media (max-width: 992px) {
-  .text-display-2 {
-    font-size: 64px;
-    line-height: 70px;
-  }
-  .text-heading-1 {
-    font-size: 46px;
-    line-height: 52px;
-  }
-  .newsletter .newsletter-img {
-    position: relative;
   }
 }

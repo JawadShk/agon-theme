@@ -19,7 +19,7 @@
   <body>
 
   <header>
-    <section class="header bg-green">
+    <section class="header bg-green" id="nav">
         <nav class="navbar navbar-expand-lg navbar-dark p-4 font-18">
             <div class="container-xl container">
                 <a class="navbar-brand" href="index.php"><img src="images/logo-white.svg" alt="logo" class="img-fluid"></a>
@@ -49,7 +49,7 @@
                         </li>
                     </ul>
                     <form class="my-2 my-lg-0 font-18">
-                            <button type="button" class="rounded-pill px-4 py-3 font-weight-bolder btn btn-outline-light">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
+                            <button type="button" class="hover-up rounded-pill px-4 py-3 font-weight-bolder btn btn-outline-light d-block d-xl-block d-lg-none">Get Started<i class="bi bi-arrow-right ml-4"></i></button>
                     </form>
                 </div>
             </div>
